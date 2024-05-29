@@ -1,39 +1,43 @@
-# BreastCancerCoimbra
-Breast cancer is the most common malignancy among women
-worldwide. There is extensive literature on the relationship between body
-weight and breast cancer risk but some doubts still remain about the role
-of adipokines per se, the role of insulin and glucose regardless of obesity,
-as well as the crosstalk between these players. Thus, in this project, we
-intend to determine the relation between body mass index (BMI),
-glycaemia, insulinemia, insulin-resistance, blood adipokine levels and
-tumour.
-## Data Set Information:
-There are 10 predictors, all quantitative, and a binary dependent variable, indicating the presence or absence of breast cancer. The predictors are anthropometric data and parameters which can be gathered in routine blood analysis. Prediction models based on these predictors, if accurate, can potentially be used as a biomarker of breast cancer.
-## Attribute Information:
-### Quantitative Attributes:
-* Age (years)
-* BMI (kg/m2)
-* Glucose (mg/dL)
-* Insulin (µU/mL)
-* HOMA
-* Leptin (ng/mL)
-* Adiponectin (µg/mL)
-* Resistin (ng/mL)
-* MCP-1(pg/dL)
+# Breast Cancer Coimbra Project
 
-### Labels:
-* 1 = Healthy controls
-* 2 = Patients
+Breast cancer is the most common malignancy among women worldwide. While there is extensive literature on the relationship between body weight and breast cancer risk, uncertainties remain about the roles of adipokines, insulin, glucose, and their interactions. This project aims to explore the relationships between body mass index (BMI), glycaemia, insulinemia, insulin resistance, blood adipokine levels, and breast cancer.
 
-### Abbreviations
-* BC: Breast cancer
-* BMI: Body mass index
-* HOMA: Homeostasis Model Assessment
-* MCP-1: Chemokine Monocyte Chemoattractant Protein 1
+## Data Set Information
+
+The dataset contains 10 quantitative predictors and a binary dependent variable indicating the presence or absence of breast cancer. These predictors include anthropometric data and parameters obtainable from routine blood analyses. Accurate prediction models based on these predictors could serve as biomarkers for breast cancer.
+
+## Attribute Information
+
+### Quantitative Attributes
+1. **Age** (years)
+2. **BMI** (kg/m²)
+3. **Glucose** (mg/dL)
+4. **Insulin** (µU/mL)
+5. **HOMA** (Homeostasis Model Assessment)
+6. **Leptin** (ng/mL)
+7. **Adiponectin** (µg/mL)
+8. **Resistin** (ng/mL)
+9. **MCP-1** (pg/dL) - Chemokine Monocyte Chemoattractant Protein 1
+
+### Labels
+- **1**: Healthy controls
+- **2**: Patients
+
+## Abbreviations
+- **BC**: Breast cancer
+- **BMI**: Body mass index
+- **HOMA**: Homeostasis Model Assessment
+- **MCP-1**: Chemokine Monocyte Chemoattractant Protein 1
 
 ## Goals
-The goal of this exploratory study was to develop and assess a prediction model which can potentially be used as a biomarker of breast cancer, based on anthropometric data and parameters which can be gathered in routine blood analysis.
-Nowadays in a medical test, the big indicators of success are specificity and sensitivity. Every medical test strives to reach 100% in both criteria.
+The primary goal of this exploratory study is to develop and evaluate a prediction model that could potentially be used as a biomarker for breast cancer. The model will be based on anthropometric data and parameters available from routine blood analyses. In medical testing, the key indicators of success are specificity and sensitivity, with the ideal aim being 100% in both metrics.
 
-### Data-set :
-[Download](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra)
+## Dataset
+You can download the dataset from the following link: [Breast Cancer Coimbra Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra)
+
+## Future Work
+- Investigate the individual and combined effects of adipokines, insulin, and glucose on breast cancer risk.
+- Enhance the prediction model by incorporating additional relevant biomarkers.
+- Validate the model with a larger and more diverse dataset to improve generalizability.
+
+By advancing our understanding of these relationships, this project aims to contribute to more effective early detection and treatment strategies for breast cancer.
